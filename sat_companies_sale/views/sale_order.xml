@@ -7,6 +7,10 @@
         <field name="arch" type="xml">
 
             <xpath expr="//form/header/button[8]" position="attributes">
+                <attribute name="attrs">{'invisible': [('state', '=', 'sale')]}</attribute>
+            </xpath>
+
+            <xpath expr="//form/header/button[8]" position="attributes">
                 <attribute name="name">get_task_sale_type</attribute>
             </xpath>
 
