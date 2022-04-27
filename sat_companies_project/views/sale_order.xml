@@ -12,7 +12,7 @@
                     type="object" 
                     string="ENVIAR PRESUPUESTO" 
                     groups="sale.group_proforma_sales"
-                    attrs="{'invisible': [('state', 'not in', ['draft'])]}"
+                    attrs="{'invisible': [('state', '!=', 'draft')]}"
                     context="{'proforma': True}"/>
                 <field name="is_potential_client" invisible="1"/>
             </xpath>
