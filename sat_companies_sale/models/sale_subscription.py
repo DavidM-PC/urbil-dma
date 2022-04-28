@@ -10,4 +10,4 @@ class SaleSubscription(models.Model):
         tracking=True)
     type_contract = fields.Selection([
         ('normal','Normal'),
-        ('all_risk','All risk')],string="Type of contract")
+        ('all_risk','All risk')],string="Type of contract",tracking=True)

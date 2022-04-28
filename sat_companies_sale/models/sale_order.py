@@ -14,7 +14,8 @@ class SaleOrder(models.Model):
         tracking=True)
     population_id = fields.Many2one(
         'res.partner.population',
-        string="Population")
+        string="Population",
+        tracking=True)
     sale_type = fields.Selection([
         ('maintenance','Maintenance'),
         ('mounting','Mounting'),
