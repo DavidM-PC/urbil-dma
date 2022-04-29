@@ -22,7 +22,7 @@
 
     'data': [
        
-        #'views/quality_alert.xml',
+        'views/bim_project.xml',
         
     ],
     'installable': True
