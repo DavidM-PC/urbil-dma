@@ -8,7 +8,7 @@
 
             <xpath expr="//form[1]/sheet[1]/notebook[1]" position="inside">
                 <page string="Compras" name="compras">
-                    <group name="group_1">
+                    <group>
                         <group>
                             
                         </group>
