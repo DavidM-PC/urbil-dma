@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="inherit_view_bim_project_purchase" model="ir.ui.view">
+        <field name="name">bim.project.form.inherit</field>
+        <field name="model">bim.project</field>
+        <field name="inherit_id" ref="base_bim_2.view_form_bim_project"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//form[1]/sheet[1]/notebook[1]" position="inside">
+                <page string="Compras" name="compras">
+                    <group name="group_1">
+                        <group>
+                            
+                        </group>
+                        <group>
+                            
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+
+        </field>
+    </record>
+</odoo>     
